@@ -82,6 +82,7 @@ const Menu = styled.div`
     @media (max-width: 768px) {
         display: none;
     }
+
 `
 
 const RightMenu = styled.div`
@@ -92,6 +93,12 @@ const RightMenu = styled.div`
         font-weight: 600;
         margin-right: 20px;
         flex-wrap: nowrap;
+    }
+
+    @media (max-width: 300px) {
+        a {
+            display: none;
+        }
     }
 `
 
