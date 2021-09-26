@@ -12,20 +12,20 @@ function Header() {
 
     return (
         <Container>
-            <a>
-                <img src="/images/logo.svg" />
+            <a href="/">
+                <img src="/images/logo.svg" alt="tesla" />
             </a>
 
             <Menu>
 
                 { cars && cars.map((car, index) =>(
-                    <a href="#" key={index}>{car}</a>
+                    <a href={car} key={index}>{car}</a>
                 ))}
             </Menu>
 
             <RightMenu>
-                <a href="#">Shop</a>
-                <a href="#">Account</a>
+                <a href="/">Shop</a>
+                <a href="/">Account</a>
 
                 <CustomMenu onClick={() => setBurgerStatus(true)}/>
             </RightMenu>
@@ -38,14 +38,14 @@ function Header() {
                 </CloseWrapper>
 
                 { cars && cars.map((car, index) =>(
-                    <li key={index}><a href="#">{car}</a></li>
+                    <li key={index}><a href={car}>{car}</a></li>
                 ))}
 
-                <li><a href="#">Existing Inventory</a></li>
-                <li><a href="#">Used Inventory</a></li>
-                <li><a href="#">Trade-In</a></li>
-                <li><a href="#">Test Drive</a></li>
-                <li><a href="#">Support</a></li>
+                <li><a href="/">Existing Inventory</a></li>
+                <li><a href="/">Used Inventory</a></li>
+                <li><a href="/">Trade-In</a></li>
+                <li><a href="/">Test Drive</a></li>
+                <li><a href="/">Support</a></li>
             </BurgerNav>
         </Container>
     )
