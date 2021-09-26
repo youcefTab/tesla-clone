@@ -11,6 +11,10 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* create animation using keyframes */
 
 @keyframes animateDown {

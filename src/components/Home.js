@@ -11,6 +11,7 @@ function Home() {
                 backgroundImg="model-s.jpg"
                 leftBtnText="Custom order"
                 rightBtnText="Existing inventory"
+                hidden
             />
             <Section
                 title="Model Y"
@@ -61,6 +62,5 @@ export default Home
 
 // styled components to use css inside our components insted of seperate css file
 const Container = styled.div`
-    height: 100vh
-
+    height: 100vh;
 `
