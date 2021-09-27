@@ -84,7 +84,7 @@ const Menu = styled.div`
         display: none;
     }
 
-    @media (max-width: 300px) {
+    @media (max-width: 400px) {
         max-width: 200px;
     }
 
@@ -100,7 +100,7 @@ const RightMenu = styled.div`
         flex-wrap: nowrap;
     }
 
-    @media (max-width: 300px) {
+    @media (max-width: 400px) {
         a {
             display: none;
         }
