@@ -63,4 +63,7 @@ export default Home
 // styled components to use css inside our components insted of seperate css file
 const Container = styled.div`
     height: 100vh;
+    @media (max-width: 300px) {
+        width: 200px;
+  }
 `

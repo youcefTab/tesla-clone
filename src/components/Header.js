@@ -64,6 +64,7 @@ const Container = styled.div`
     left: 0;
     right:0;
     z-index: 1;
+
 `
 
 const Menu = styled.div`
@@ -81,6 +82,10 @@ const Menu = styled.div`
 
     @media (max-width: 768px) {
         display: none;
+    }
+
+    @media (max-width: 300px) {
+        max-width: 200px;
     }
 
 `
