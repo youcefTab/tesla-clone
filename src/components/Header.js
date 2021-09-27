@@ -19,7 +19,7 @@ function Header() {
             <Menu>
 
                 { cars && cars.map((car, index) =>(
-                    <a href={car} key={index}>{car}</a>
+                    <a href="/" key={index}>{car}</a>
                 ))}
             </Menu>
 
